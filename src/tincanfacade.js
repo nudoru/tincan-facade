@@ -10,7 +10,6 @@
 const TinCan = require('tincanjs');
 const _ = require('lodash');
 
-// http://xapi.vocab.pub/datasets/adl/
 const ADLActivity = {
     'assessment': {
         'id': 'http://adlnet.gov/expapi/activities/assessment',

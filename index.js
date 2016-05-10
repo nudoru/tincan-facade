@@ -39,6 +39,8 @@ let testStatement = {
         }
     };
 
+
+
 // Connect to the LRS
 LRS.connect({
     end: 'https://lrs.adlnet.gov/xapi/',
