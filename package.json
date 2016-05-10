@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nudoru/tincan-facade#readme",
   "dependencies": {
+    "lodash": "^4.12.0",
     "tincanjs": "^0.41.1"
   }
 }
