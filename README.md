@@ -2,7 +2,7 @@
 
 Just a simple wrapper and a few convenience functions for Rustici’s TinCanJS https://github.com/RusticiSoftware/TinCanJS
 
-*Note* This module utilizes ES6 - use with Node 6+ or in the browser with Babel.
+*Note This module utilizes ES6 - use with Node 6+ or in the browser with Babel.*
 
 ## Usage
 
