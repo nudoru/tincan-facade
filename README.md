@@ -6,7 +6,7 @@ Just a simple wrapper and a few convenience functions for Rustici’s TinCanJS h
 
 ## Usage
 
-`
+``
 const LRS = require('./src/tincanfacade.js');
 
 function connect() {
@@ -22,7 +22,7 @@ function send(statement) {
     LRS.send(statement).then(() => console.log('Statement sent'))
         .catch((err) => console.warn('Failed to send', err));
 }
-`
+``
 
 ## Functions
 
