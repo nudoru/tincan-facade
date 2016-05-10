@@ -1,23 +1,25 @@
 {
-  "name": "tincan-facade",
-  "version": "1.0.0",
-  "description": "Wrapper for Rustici's TinCanJS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nudoru/tincan-facade.git"
-  },
-  "author": "Matt Perkins",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nudoru/tincan-facade/issues"
-  },
-  "homepage": "https://github.com/nudoru/tincan-facade#readme",
-  "dependencies": {
-    "lodash": "^4.12.0",
-    "tincanjs": "^0.41.1"
-  }
+    "name": "tincan-facade",
+    "version": "1.0.0",
+    "description": "Wrapper and helper functions for Rustici's TinCanJS module",
+    "main": "src/tincanfacade.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nudoru/tincan-facade.git"
+    },
+    "author": "Matt Perkins <hello@mattperkins.me>",
+    "license": "MIT",
+    "keywords": ["xapi", "tincan"],
+    "bugs": {
+        "url": "https://github.com/nudoru/tincan-facade/issues"
+    },
+    "homepage": "https://github.com/nudoru/tincan-facade#readme",
+    "dependencies": {
+        "lodash": "^4.12.0",
+        "tincanjs": "^0.41.1"
+    }
 }
