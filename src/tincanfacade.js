@@ -413,10 +413,6 @@ module.exports = {
             subjectName, subjectID, verbDisplay, objectID, objectType, objectName
         } = statementData;
 
-        if (!this.validateVerb(verbDisplay)) {
-            console.warn('LRS verb is not in the dictionary', verbDisplay);
-        }
-
         statement = _.defaults({
             actor: {
                 name: subjectName,
@@ -444,7 +440,6 @@ module.exports = {
     // Create and send an xAPI statement
     send(statementData) {
         let statement = this.createStatement(statementData);
-        console.log(statement);
 
         return new Promise(function(resolve, reject) {
 

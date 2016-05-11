@@ -1,6 +1,6 @@
 {
     "name": "tincan-facade",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Wrapper and helper functions for Rustici's TinCanJS module",
     "main": "src/tincanfacade.js",
     "scripts": {
